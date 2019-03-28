@@ -1,3 +1,46 @@
 <resources>
     <string name="app_name">进度条Demo</string>
+
+    <string name="introduce_noun">
+        节点进度条属性：\n
+        \n
+        app:progress：       默认进度\n
+        app:progressMax：    最大进度\n
+        app:lineHeight：     进度条线条高度\n
+        app:colorFinished：  已完成的进度条的颜色\n
+        app:colorUnfinished：未完成的进度条的颜色\n
+        app:nounCount：      节点数量\n
+        app:colorUnfinished：未完成的进度条的颜色\n
+    </string>
+
+    <string name="introduce_slope">
+         圆环进度条：\n
+        \n
+        支持5种类型：\n
+        app:imgType="not"       --> 空\n
+        app:imgType="success"   --> 对号\n
+        app:imgType="error"     --> 叉号\n
+        app:imgType="progress"  --> 当前进度\n
+        app:imgType="picture"   --> 图片\n
+        \n
+        其他属性：\n
+        app:progress：       默认进度\n
+        app:progressMax：    最大进度\n
+        app:lineWidth：      圆环的线条宽度\n
+        app:color：          圆环的颜色\n
+        app:pictureSrc：     图片的资源路径\n
+        app:pictureMargin：  图片与圈的间距\n
+    </string>
+
+    <string name="introduce_movenumber">
+        移动数字进度条属性：\n
+        \n
+        app:progress：       默认进度\n
+        app:progressMax：    最大进度\n
+        app:lineHeight：     进度条线条高度\n
+        app:colorFinished：  已完成的进度条的颜色\n
+        app:colorUnfinished：未完成的进度条的颜色\n
+        app:textSize：       数字大小\n
+    </string>
+
 </resources>
